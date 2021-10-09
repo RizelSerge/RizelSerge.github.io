@@ -1,0 +1,95 @@
+body, html {
+font-family:Arial;
+height: 30%;
+margin: 0;
+}
+
+h1 {
+  color:rgb(74, 74, 240);
+  font-size:xx-large;
+  text-align:center;
+  text-decoration:none;
+ }
+
+ h2 {
+  color:blue;
+  font-size:large;
+  text-align:center;
+  text-decoration:none;
+ }
+
+footer {
+  color:blue;
+  font-size:medium;
+  text-align:center;
+  text-decoration:none;
+}
+
+.bg {
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-attachment: fixed;
+}
+     
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(57, 7, 138);
+  color:white;
+  background: blue;
+  border-radius: 8px;
+  text-align:center;
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+      
+form.search input::after {
+  content: "";
+  clear: both;
+  display: table;
+}    
+
+form.search button {
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-left: 90px;
+  text-decoration: none;
+}
+      
+form.search button:hover {
+  background: #07a84a;
+}
+      
+.btn-group button {
+  background-color: #9fb3f3; 
+  border: 1px solid rgb(14, 7, 109); 
+  color: white;
+  margin:auto;
+  padding:10px; 
+  cursor: pointer; 
+  float:right;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+        
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        
+.btn-group button:hover {
+  background-color: #5ad0d8;
+}
+        
+        
+
+    

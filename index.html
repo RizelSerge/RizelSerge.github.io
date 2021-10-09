@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
     <head>
-        <tytle>Google search</tytle>
+        <title>Searcher</title>
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles_search.css">
+        <div 
+        class="btn-group">
+        <button><a href="search_2.html">Пошук зображень</a></button>
+        <button><a href="search_3.html">Розширений пошук</a></button>
+        </div>
+        <div class="bg"></div>
+        <style>
+            body {
+            background-image: url("paws.jpg");
+            }  
+        </style>      
     </head>
-    <body>
-        <h1>
-            It's my first site in my life
-        </h1>
-    </body>
+    <body>     
+        <h1>Пошук Google</h1>
+        <form 
+            class="search" action="https://google.com/search" style="margin-top:100px;margin-left:640px;width:500px;">
+            <input type="text" placeholder="Введіть пошукове слово" name="q"><br>
+            <button type="submit" name="btnK"><i class="fa fa-search"></i></button><br><br>
+        <form
+            class="search" action="https://google.com/search" style="margin-top:10px;margin-left:640px;width:500px">
+            <input type="text" placeholder="Мені повезе!" name="q"><br>
+            <input type="hidden" name="btnI">
+            <button type="submit" name="btnI"><i class="fa fa-search"></i></button>
+        </form>
+   </body>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Search_2</title>
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles_search.css">
+        <div 
+        class="btn-group">
+        <button><a href="search_3.html">Розширений пошук</a></button>
+        <button><a href="index.html">Пошук</a></button>
+        </div>
+        <div class="bg"></div>
+        <style>
+        body {
+            background-image: url("crow3.jpg");
+            }  
+        </style>
+    </head>
+    <body>
+        <h1>Пошук зображень Google</h1>
+        <form class="search"
+            action="https://google.com/search" style="margin-top:200px;margin-left:640px;width:600px;">
+            <input type="text" placeholder="Чиє зображення знайти?" name="q"><br>
+            <input type="hidden" name="tbm" value="isch">
+            <button type="submit"><i class="fa fa-search"></i></button> 
+        </form>
+    </body>
+</html>

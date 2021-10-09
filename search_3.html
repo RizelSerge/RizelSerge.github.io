@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search_3</title>
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles_search.css">
+        <div 
+        class="btn-group">
+       <button><a href="index.html">Пошук</a></button>
+       <button><a href="search_2.html">Пошук зображень</a></button>
+        </div>
+        <div class="bg"></div>
+        <style>
+            body {
+                background-image:url("fish.jpg");
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Розширений пошук Google</h1><br><br>
+        <h2>Знайти сторінки:</h2>
+        <form 
+            class="search" action="https://google.com/search" style="margin-top:50px;margin-left:650px;width:500px;">
+            <input type="text" placeholder="З усіма цими словами" name=q><br>
+            <input type="hidden" name="as_q">
+            <button type="submit"><i class="fa fa-search"></i></button><br><br>
+        <form
+            class="search" action="https://google.com/search" style="margin-top:10px;margin-left:650px;width:500px;">
+            <input type="text" placeholder="З саме цим словом" name="q"><br>
+            <input type="hidden" name="as_epq">
+            <button type="submit"><i class="fa fa-search"></i></button><br><br>
+        <form   
+            class="search" action="https://google.com/search" style="margin-top:10px;margin-left:650px;width:500px;">
+            <input type="text" placeholder="З будь-яким з цих слів" name="q"><br>
+            <input type="hidden" name="as_oq">
+            <button type="submit"><i class="fa fa-search"></i></button><br><br>
+        <form
+           class="search" action="https://google.com/search" style="margin-top:10px;margin-left:650px;width:500px;">
+           <input type="text" placeholder="Без жодного з цих слів" name="q"><br>
+           <input type="hidden" name="as_eq">
+           <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <footer>
+            У останньому варіанті пошуку додайте перед небажаним словом (-) 
+        </footer>
+    </body>
+</html>
